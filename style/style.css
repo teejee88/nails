@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno&display=swap');
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #FEFCFF ;
+}
+header {
+  background: white;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .3s ease-in-out;
+}
+.logo {
+  color: #3B9C9C;
+  font-family: 'Italianno', cursive;
+  font-size: 4em;
+  margin-left: -610px;
+  transition: 0.4s;
+}
+
+.logo:hover{
+  transform: scale(1.05);
+}
+
+nav {
+  display: table;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu > li {
+  width: 180px;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #404040;
+  padding: 15px 30px;
+}
+.topmenu li a:hover { color: #3B9C9C; }
+.submenu-link:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  color: inherit;
+  margin-left: 10px;
+}
+.submenu {
+  background: #273037;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 5;
+  width: 180px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.submenu a {
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.submenu li:last-child a { border-bottom: none; }
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+
+.linii{
+  color: black;
+  border-style: double;
+  height: 3px;
+  width: 90%;
+  color: #404040;
+}
+
+
+.socialicon {
+  width: 30px;
+  height: 23px;
+  transition: 0.3s;
+}
+.socialicon:hover{
+  transform: scale(1.2);
+  transform: 
+
+}
+
+.socialinline{
+  display: inline;
+}
+
+.socialposition{
+  margin-left: 800px;
+  margin-top: -20px;
+}
+
+
+
